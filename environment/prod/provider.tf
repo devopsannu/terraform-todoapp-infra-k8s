@@ -4,7 +4,7 @@ terraform {
 
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "4.51.0"
+      version = "4.72.0"
     }
   }
   backend "azurerm" {
@@ -17,5 +17,5 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "2725a90a-ca7e-4474-afbb-38294afb9db3"
+  subscription_id = "f0c89d74-b3bd-42ba-acd7-d8aa4114e1ef"
 }
