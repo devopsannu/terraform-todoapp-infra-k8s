@@ -4,7 +4,7 @@ resource "azurerm_kubernetes_cluster" "aks_clusters" {
   location            = each.value.location
   resource_group_name = each.value.rg_name
   dns_prefix          = each.value.dns_prefix
-  kubernetes_version  = each.value.kubernetes_version
+  # kubernetes_version  = each.value.kubernetes_version
 
   default_node_pool {
     name       = "default"

@@ -19,7 +19,7 @@ parent_aks_clusters = {
     dns_prefix         = "prodaksjustice"
     node_count         = 1
     vm_size            = "Standard_B2s_v2"
-    kubernetes_version = "1.32.9"
+    # kubernetes_version = "1.32.9"
 
     tags = {
       environment = "production"
