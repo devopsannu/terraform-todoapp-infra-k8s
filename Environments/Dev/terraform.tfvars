@@ -1,14 +1,14 @@
 parent_resource_group = {
   rg1 = {
-    rg_name     = "prod-k8s-rg1"
+    rg_name  = "prod-k8s-rg1"
     location = "central india"
-    tags     = {
+    tags = {
       environment = "production"
       project     = "k8s-microservices"
     }
   }
 }
- 
+
 
 
 parent_aks_clusters = {
